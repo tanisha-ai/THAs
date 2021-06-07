@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap');
+    </style>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap" rel="stylesheet">
+
+        
+</head>
+<style>
+    .content{
+        height: 544px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        height: 380px;
+        width: 170px;
+        color: hsl(0, 0%, 95%);
+        font-weight: 600;
+        font-family: Big Shoulders Display;
+        font-size: 15px;
+     
+        
+        
+    }
+    .box button{
+        border-radius: 15px;
+        height:7%;
+        width: 50%;
+        border: 1px solid white;
+        margin: 26px 0px 0px 30px;
+        color: hsl(31, 77%, 52%);
+    
+    }
+    .box h1{
+        margin: 50px 0px 0px 30px;
+    }
+    
+    #box1::before{
+        content: "";
+        position: fixed;
+       width: 16.4%;
+        background: hsl(31, 77%, 52%);
+        border-radius: 5px 0px 0px 5px;
+        height: 52%;
+        z-index: -1;
+    }
+    #box2::before{
+        content: "";
+        position: fixed;
+       width: 16.4%;
+        background: hsl(184, 100%, 22%);
+        
+        height: 52%;
+        z-index: -1;
+    }
+    #box3::before{
+        content: "";
+        position: fixed;
+       width: 16.4%;
+        background:  hsl(179, 100%, 13%);
+        border-radius: 0px 5px 5px 0px;
+        height: 52%;
+        z-index: -1;
+    }
+    .box p{
+        color: hsla(0, 0%, 100%, 0.75);
+        font-weight: 400;
+        font-family: Lexend Deca;
+        font-size: 10px;
+        margin: 30px;
+    }
+    #box2 button{
+        margin: 26px 0px 0px 30px;
+        color:hsl(184, 100%, 22%) ;
+    }
+    #box3 button{
+        color:hsl(179, 100%, 13%) ;
+        margin: 26px 0px 0px 30px;
+    }
+   
+</style>
+<body>
+    <div class="content">
+       
+        <div class="box" id="box1">
+          
+            <i class="fa fa-utensils"></i>
+            <h1>Maggi</h1>
+            <p>I love maggi, we can cook maggi with many different ways or cen create our own version. click here to know more</p>
+            <button>read more</button>
+
+        </div>
+        <div class="box" id="box2">
+            <h1>Sandwich</h1>
+            <p>I love Sandwich, we can make sandwiches with many different ways or cen create our own version. click here to know more</p>
+            <button>read more</button>
+
+        </div>
+        <div class="box" id="box3">
+            <h1>Garlic bread</h1>
+            <p>I love Garlic bread, we can make it with many different ways or cen create our own version. click here to know more</p>
+            <button>read more</button>
+
+        </div>
+    </div>
+</body>
+</html>
