@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello, world!</title>
+  </head>
+  
+  <style>
+    .desc{
+      margin:20px 0px 20px 0px;
+    }
+    .container{
+      display: flex;
+     place-content: space-around;
+        }
+    .right{
+      width: 400px;
+      height: 500px;
+      border: 2px solid black;
+    }
+  </style>
+  <body>
+    <h1 class="text-center">TO-DO LIST</h1>
+    <div class="container">
+      <div class="left">
+      <div>
+        <label for="title">TITle </label>
+        <input type="text" id="title" class="form-control" placeholder="Enter a Title">
+      </input>
+      </div>
+      <div class="col-24 desc">
+        <label for="desc">Description  </label>
+        <!-- <textarea id="desc"></textarea> -->
+        <input type="textarea" id="desc" class="form-control" placeholder="Enter a Title"></input>
+      </div>
+      <button type="submit" id="add" >ADD</button>
+    </div>
+    <div class="right">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">S.no.</th>
+            <th scope="col">Title</th>
+            <th scope="col">time</th>
+            <th scope="col">action</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td><button >delete</button></td>
+          </tr>
+    </div>
+  </div>
+  <script src="DAY12.js"></script>
+  </body>
+</html>
