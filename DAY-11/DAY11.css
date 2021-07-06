@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    background: rgb(54, 126, 194);
+    place-content: center;
+}
+.inner-div{
+    padding: 20px 30px 30px 40px;
+    width: 35vw;
+    background: rgb(247, 191, 214);
+}
+.inner-div h3{
+margin: 5px 0px 20px 0px;
+color: rgb(13, 43, 41);
+cursor:default;
+}
+.inner-div li{
+list-style: none;
+padding: 10px;
+
+color: rgb(10, 24, 43);
+font-size: 20px;
+}
+#submit,.btn{
+    display: block;
+    margin: auto;
+    
+    color: blue;
+    background: rgb(255, 1, 242);
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+
+}
