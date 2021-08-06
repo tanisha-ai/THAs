@@ -1,4 +1,4 @@
-import "./style.css";
+import "./App.css";
 import { useCallback, useState } from "react";
 
 function Main() {
