@@ -1,29 +1,34 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background: #000;
-  color: white;
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Source+Sans+Pro:wght@900&family=Staatliches&display=swap');
+*
+{
+    margin: 0;
+    padding:0;
+    font-family: 'Staatliches', cursive;
 }
-.App h1{
-  text-align: center;
-  margin:10px
-}
-.template{
-  width:33.33%;
-  height: 500px;
-  display: inline-block;
-  border:10px solid transparent;
-}
-.template img{
- 
-width:100%;
-height: 400px;
-border: 1px solid rgb(255, 255, 255);
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: rgb(0, 0, 0);
 }
-.meme img{
-  width:100%;
-height: 400px;
-border: 1px solid rgb(255, 255, 255);
+button
+{
+    height:80px;
+    width:250px;
+    /* font-family: "Poppins", sans-serif; */
+    font-size: 50px;
+    border: none;
+    outline:none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 27px 2px #333366;
+    color: #FF9933  ;
+    /* font-weight: 700; */
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
 }
